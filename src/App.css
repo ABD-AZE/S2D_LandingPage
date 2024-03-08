@@ -1,0 +1,39 @@
+h1 {
+  font-size: 100px;
+  letter-spacing: -4px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 35%;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+#date {
+  text-align: center;
+  font-size: 25px;
+  padding: 4px;
+  margin-bottom: 50px;
+}
+p + button {
+  font-size: 25px;
+  background-color: black;
+  color: white;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, font-size 0.1s ease;
+  border: 0.5px solid white;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+p + button:hover {
+  /* box-shadow: 5px 5px white; */
+  box-shadow: 2px 3px 5px rgb(255, 254, 254);
+  font-size: 26px;
+}
+#sponsors {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 90px;
+}
